@@ -1,0 +1,85 @@
+body {background-color: black}
+
+img { margin: auto;
+      display: block;
+      border-color: white;
+      border-style: solid;
+      border-width: 2px;
+       }
+
+#menu  {list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        text-align: center}
+
+li a {;
+      text-align: center;
+      padding: 14px 16px;
+        float: left;}
+
+li a:hover:not(.activo) {
+        background-color: rgb(104, 97, 97); }
+
+.activo {background-color: rgb(104, 104, 104); }
+a {     color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        list-style-type: none;}
+
+a:link, a:visited {
+                background-color: #black;
+                color: white;
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+            
+            a:hover, a:active {
+                background-color:black;
+            }
+
+
+h1 {color:white;
+    text-align: center;
+    font-family: 'Spectral SC';
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+    background-image: url(fondo.jpg)}
+
+h2 {color: white;
+    text-align: center;
+    font-family: 'Spectral SC';
+    font-size: 25px;
+        padding: 0;
+        margin: 0;}
+
+#album {color: dimgrey;
+    text-align: center;
+    font-family: 'Spectral SC';
+    font-size: 25px;
+        padding: 0%}
+
+a {     color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+        list-style-type: none;}
+
+#barra {border-width: 2px;  ;
+        border-color: white;
+        border-style: double;}
+
+#social {text-align: center;
+        letter-spacing: 4px;}
+
+        
+ #barra {border-width: 2px;  ;
+        border-color: white;
+        border-style: double;}
